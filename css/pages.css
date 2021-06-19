@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  background-image: url("/img/fundo.jpg");
+}
+
+.navbar {
+  width: 100%;
+  height: 6rem;
+
+  background: #3c3b3f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #6b6561,
+    #817974
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #6b6561,
+    #817974
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  -webkit-box-shadow: 0px 2px 5px 0px #ccc;
+  box-shadow: 0px 2px 5px 0px #ccc;
+}
+
+.navbar img {
+  width: 80px;
+}
+
+.navbar a {
+  font-family: "Stint Ultra Condensed", cursive;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 35px 45px;
+  line-height: 2rem;
+  background-color: #f2fbe0;
+
+  -webkit-box-shadow: 0px 8px 6px 3px #ccc;
+  box-shadow: 0px 8px 6px 3px #ccc;
+}
+
+.container a {
+    text-decoration: none;
+    color: #97B26C;
+    font-weight: bold;
+}
+
+.container a p {
+    text-indent: 0;
+}
+
+.container .title {
+  text-align: center;
+}
+
+.container li, .container p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.container p{
+  text-indent: 40px;
+}
+
+.container h3 {
+    color: #97B26C;
+    margin-bottom: 2rem;
+}
+
+.container img{
+    width: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 20px 30px;
+    border: 20px solid #ACC18A;
+    border-radius: 30px;
+}
+
+.ingredients {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 3rem;
+}
+
+
+.card {
+    text-align: center;
+}
+
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: #e2e0df;
+  color: black;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: 0px -2px 5px 0px #ccc;
+  box-shadow: 0px -2px 5px 0px #ccc;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited,
+.footer a:active {
+  color: #97b26c;
+}
