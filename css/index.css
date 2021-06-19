@@ -14,13 +14,7 @@ body {
     background-image: url("/img/header.jpg");
     background-repeat: no-repeat;
     background-size: 1980px 160px;
-
-
-
-    /* background: rgb(77,76,76);
-    background: linear-gradient(180deg, rgba(77,76,76,1) 0%, rgba(98,96,87,1) 50%, rgba(77,76,76,1) 100%); */
-    
-    
+  
     
     display: flex;
     align-items: center;
